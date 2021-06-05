@@ -36,5 +36,12 @@ func main() {
 		for _, v := range u.Variables {
 			fmt.Printf("\t%s: %v\n", v.Name, v.Value)
 		}
+		val, err := u.GetVariable("battery.voltage")
+		if err != nil {
+			fmt.Printf("GetVariable: error %s\n", err)
+		} else {
+			fmt.Printf("battery.voltage:%s\n", val)
+		}
+
 	}
 }
