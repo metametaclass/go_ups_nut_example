@@ -1,5 +1,5 @@
-module hg.tekinsoft.local/hg/nutmon
+module github.com/metametaclass/go_ups_nut_example
 
 go 1.15
 
-require github.com/robbiet480/go.nut v0.0.0-20200921180721-77b33bf222d9
+require github.com/metametaclass/go.nut v0.0.0-20210605183111-b6cfee49b6d1
